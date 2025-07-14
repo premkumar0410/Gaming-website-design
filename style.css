@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    bottom: 0;
+    padding: 10px 40px;
+    backdrop-filter: blur(10px);
+}
+
+.head-left{
+    display: flex;
+    align-items: center;
+    
+}
+.head-left button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.head-left button:hover{
+    opacity: 0.7;
+}
+
+.head-left img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.head-right a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
