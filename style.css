@@ -3,6 +3,7 @@ body{
     padding: 0;
     scroll-behavior: smooth;
 }
+/*HEADER*/
 
 header{
     background-color: #000;
@@ -46,3 +47,59 @@ header{
     color: white;
     padding-left: 20px;
 }
+/*END HEADER*/
+/* HERO - VIDEO */
+.hero-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-vid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.hero-info{
+    position: absolute;
+    top: 0;
+    color: white;
+    left:50px
+
+}
+
+.hero-info h1{
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+}
+.hero-info p{
+    max-width: 250px;
+}
+
+.hero-info button{
+    border: none;
+    background-color: #edff66;
+    padding: 10px 20px;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+
+.hero-info button:hover{
+    background: transparent;
+    color: white;
+    box-shadow: 0 0 15px #edff66;
+}
+.gaming-text{
+    position: absolute;
+    right: 50px;
+    margin: 0;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    bottom: 50px;
+    color: white;
+}
+/* END HERO - VIDEO */
